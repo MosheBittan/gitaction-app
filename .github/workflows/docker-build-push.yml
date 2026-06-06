@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug - List workspace files
+        run: ls -la
       - name: Checkout repository
         uses: actions/checkout@v4
 
